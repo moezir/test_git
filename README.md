@@ -1,2 +1,2 @@
 # Example Git
-This is test git project
+This is test git project.
