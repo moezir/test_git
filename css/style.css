@@ -5,3 +5,22 @@ body {
   padding: 0;
   min-height: 100vh;
 }
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration-style: dashed;
+  text-underline-offset: 5px;
+  transition: all 0.2s ease;
+}
+a:hover {
+  text-underline-offset: 3px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 12px;
+  padding: 20px;
+}
